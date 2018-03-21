@@ -1,0 +1,63 @@
+# basic headers
+types.h
+param.h
+defs.h
+x86.h
+asm.h
+mmu.h
+elf.h
+mp.h
+
+# startup
+bootasm.S
+bootother.S
+main.c
+mp.c
+init.c
+
+# locks
+spinlock.h
+spinlock.c
+
+# processes
+proc.h
+proc.c
+setjmp.S
+kalloc.c
+
+# system calls
+syscall.h
+trapasm.S
+traps.h
+trap.c
+vectors.pl
+syscall.c
+sysproc.c
+
+# file system
+buf.h
+dev.h
+fcntl.h
+stat.h
+file.h
+fs.h
+fsvar.h
+ide.c
+bio.c
+fs.c
+file.c
+sysfile.c
+
+# pipes
+pipe.c
+
+# string operations
+string.c
+
+# low-level PC
+ioapic.h
+lapic.c
+ioapic.c
+picirq.c
+console.c
+8253pit.c
